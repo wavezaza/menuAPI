@@ -143,11 +143,11 @@
             })
     let i = 1;
     function del_1_(i){
-        $("#btndel_"+i).remove();
+        $("#btndel_1_"+i).remove();
     }
     function Posts_1(x) {
         var datamenu = x
-            var line = "<div id='btndel_"+i+"' class='card bg-dark text-white border-2 border-primary text-center p-4 m-2 col-md-5 col-lg-4'>"
+            var line = "<div id='btndel_1_"+i+"' class='card bg-dark text-white border-2 border-primary text-center p-4 m-2 col-md-5 col-lg-4'>"
                 line += "<div class='w-100 h-100' >"
                 line += "<img  src='"+ datamenu.single_dish.link +"' alt='' width='100%' height='100%'>"
                 line += "</div>"
@@ -162,11 +162,11 @@
     }
     let j = 1;
     function del_2_(j){
-        $("#btndel_"+j).remove();
+        $("#btndel_2_"+j).remove();
     }
     function Posts_2(y) {
         var datamenu = y;
-            var line = "<div id='btndel_"+j+"' class='card bg-dark text-white border-2 border-primary text-center p-4 m-2 col-md-5 col-lg-4'>"
+            var line = "<div id='btndel_2_"+j+"' class='card bg-dark text-white border-2 border-primary text-center p-4 m-2 col-md-5 col-lg-4'>"
                 line += "<div class='w-100 h-100' >"
                 line += "<img  src='"+ datamenu.drins.link +"' alt='' width='100%' height='100%'>"
                 line += "</div>"
